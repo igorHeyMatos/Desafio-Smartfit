@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartfit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logoSmart">
+            <img class="logo" src="./images/logo.svg">
+        </div>
+        <div class="titulo">
+            <h1>REABERTURA <br>SMART FIT</h1>
+            <p>O horário de funcionamento das nossas unidades está seguindo os decretos de cada município. Por isso, confira aqui se a sua unidade está aberta e as medidas de segurança que estamos seguindo.</p>
+        </div>
+    </header>
+
+    <form>
+        <div class="horario">
+            <img id="icone-hora" src="./images/icon-hour.png" >
+            <p>Horário</p>
+        </div>
+        <div class="formulario">
+            <p id="titulo2">Qual período quer treinar?</p>
+            <div class="linhas">
+                <div class="opcoes">
+                    <input type="radio">
+                    <p class="turno">Manhã</p>
+                </div>
+                <div class="horarios">
+                    <p>06:00 ás 12:00</p>
+                </div>
+            </div>
+            <div class="linhas">
+                <div class="opcoes">
+                    <input type="radio">
+                    <p class="turno">Tarde</p>
+                </div>
+                <div class="horarios">
+                    <p>12:01 ás 18:00</p>
+                </div>
+            </div>
+            <div class="linhas">
+                <div class="opcoes">
+                    <input type="radio">
+                    <p class="turno">Noite</p>
+                </div>
+                <div class="horarios">
+                    <p>18:01 ás 23:00</p>
+                </div>
+            </div>
+
+            <div id="opcao-unidade">
+                <div id="checkbox-uni">
+                    <input type="checkbox" id="exibir">
+                    <p id="texto-exibir">Exibir todas as unidades fechadas</p>
+                </div>
+                <div id="resultados"><p id="texto-result">Resultados encontrados: <h4 id="res-exibir">0</h4></p></div>
+            </div>
+            <div id="botoes">
+                <div id="btn1">
+                    <input type="button" value="Encontrar unidade" id="btn-encontrar">
+                </div>
+                <div id="btn2">
+                    <input type="button" value="Limpar" id="btn-limpar">
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

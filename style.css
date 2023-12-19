@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --dark-grey: #333333;
+    --light-grey: #808080;
+    --yellow: #FFB612;
+    --red: #dc0a17;
+    --green: #2FC022;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('./fonts/gotham-light.woff2') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('./fonts/gotham-book.woff2') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('./fonts/gotham-bold.woff2') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('./fonts/gotham-black.woff2') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Gotham';
+}
+
+header {
+    width: 100%;
+    margin: auto;
+}
+
+.logoSmart {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.titulo {
+    padding-top: 80px;
+    width: 900px;
+    margin: auto;
+}
+
+header h1 {
+    font-size: 34px;
+    color: var(--dark-grey);
+    padding-bottom: 20px;
+    font-family: 'Gotham';
+    src: url('./fonts/gotham-bold.woff2') format('truetype');
+    font-style: normal;
+}
+
+header p {
+    color: var(--dark-grey);
+    font-family: 'Gotham';
+    src: url('./fonts/gotham-light.woff2') format('truetype');
+    font-style: normal;
+    padding-bottom: 20px;
+}
+
+form {
+    width: 900px;
+    margin: auto;
+    border: 3px solid #eee;
+    border-radius: 5px;
+}
+
+.horario {
+    color: var(--light-grey);
+    font-family: 'Gotham';
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#icone-hora {
+    width: 30px;
+    padding-right: 10px;
+}
+
+.formulario {
+    padding: 10px;
+}
+
+#titulo2 {
+    color: #cecece;
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 2px solid #eee;
+}
+
+.linhas {
+    padding: 10px;
+    border-bottom: 2px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--light-grey);
+}
+
+.opcoes {
+    display: flex;
+}
+
+.turno {
+    padding-left: 10px;
+}
+
+#opcao-unidade {
+    padding: 40px 10px 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--dark-grey);
+}
+
+#checkbox-uni {
+    display: flex;
+}
+
+#texto-exibir {
+    padding-left: 10px;
+}
+
+#resultados {
+    display: flex;
+    align-items: center;
+}
+
+#texto-result {
+    padding-right: 10px;
+}
+
+#res-exibir {
+    font-size: 20px;
+}
+
+#botoes {
+    display: flex;
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#btn-encontrar {
+    font-family: 'Gotham';
+    color: #333333;
+    font-weight: 700;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    background-color: var(--yellow);
+    cursor: pointer;
+}
+
+#btn-limpar {
+    font-family: 'Gotham';
+    color: #333333;
+    font-weight: 700;
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #cecece;
+    background-color: #fff;
+    cursor: pointer;
+}
